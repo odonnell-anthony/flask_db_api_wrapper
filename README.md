@@ -8,7 +8,7 @@ Install Python 3.7, the 64 bit Windows installer can be found [here](https://www
 
 Clone this repo, navigate to the downloaded repo folder using command line tool and run the command:
 
- `pip install requirements.txt`
+ `pip install -r requirements.txt`
  
  This will use the Python package manager to download and install all the required packages.
 
