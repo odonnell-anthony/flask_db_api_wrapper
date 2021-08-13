@@ -77,7 +77,7 @@ docker-compose down
 ## Use App
 Using Postman, you can now post a request with *Content-type* header of *application/json* to following end point:
 
-    http://localhost:5000/DB/select
+    http://localhost:5000/DB/query
 
 Replace DB in the URL with the name of the database you wish to run the query against, the end point only expects post requests and is expecting a JSON body containing the SQL query to be ran in this format:
 
