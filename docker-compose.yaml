@@ -1,0 +1,13 @@
+  
+version: "3"
+
+services:
+    api_db_wrapper:
+        build: .
+        container_name: api_db_wrapper
+        command: python -u app.py
+        ports:
+        - "80:80"
+        environment:
+        - FLASK_APP=app.py
+        - FLASK_ENV=Development

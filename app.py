@@ -76,3 +76,7 @@ def page_not_found(e):
 def page_not_found(e):
     nothing_here = jsonify({'error': 'Something went wrong.'})
     return (nothing_here, 404)
+
+
+if __name__ == "__main__":
+    app.run(host='0.0.0.0', debug=True, port=80)
